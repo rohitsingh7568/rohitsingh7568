@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/file/static/css/main.b0e3e993.css",
+    "main.js": "/file/static/js/main.2886459c.js",
+    "static/media/girl.jpg.jpg": "/file/static/media/girl.jpg.a389d25017ff9b55c88e.jpg",
+    "static/media/logo.jpg": "/file/static/media/logo.644a0f24e3fc79cb34c2.jpg",
+    "static/media/bd.jpg": "/file/static/media/bd.ff5f2d7e6be75d158abe.jpg",
+    "static/media/intel logo.jpg": "/file/static/media/intel logo.71eb9f34f85c9ad7241b.jpg",
+    "index.html": "/file/index.html",
+    "main.b0e3e993.css.map": "/file/static/css/main.b0e3e993.css.map",
+    "main.2886459c.js.map": "/file/static/js/main.2886459c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0e3e993.css",
+    "static/js/main.2886459c.js"
+  ]
+}
