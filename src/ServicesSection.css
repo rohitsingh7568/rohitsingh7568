@@ -1,0 +1,110 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Services Section Styling */
+  .services-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .services-section h3 {
+    color: #8a4af3;
+    font-size: 1.2em;
+    text-transform: uppercase;
+  }
+  
+  .services-section h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 2.2rem;
+    margin: 10px 0 30px;
+    color: #333;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .service-card {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+  }
+  
+  .service-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon {
+    font-size: 2.5em;
+    color: #8a4af3;
+    margin-bottom: 10px;
+  }
+  
+  .service-card h4 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    font-size: 0.95em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .learn-more {
+    color: #8a4af3;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .learn-more:hover {
+    color: #5a2ec3;
+  }
+  
+  .explore-btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #8a4af3;
+    border-radius: 5px;
+    color: #8a4af3;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .explore-btn:hover {
+    background-color: #8a4af3;
+    color: #fff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .services-section h2 {
+      font-size: 1.5em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .services-section h2 {
+      font-size: 1.2em;
+    }
+  
+    .service-card {
+      padding: 15px;
+    }
+  }
+  
